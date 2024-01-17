@@ -1,0 +1,91 @@
+Log created: 2023-12-12 13:33:18
+Type: backup
+[2023-12-12 13:33:19][notice]Start backing up.
+[2023-12-12 13:33:19][notice]server info fcgi:Off max execution time: 300 wp version:6.4.2 php version:8.1.10 db version:10.4.25 php ini:safe_mode: memory_limit:256M memory_get_usage:72.46 MB memory_get_peak_usage:74.69 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-12-12 13:33:19][notice]Prepare to backup backup_db files.
+[2023-12-12 13:33:19][notice]Start exporting database.
+[2023-12-12 13:33:19][notice]Preparing to dump table wp_wpforms_tasks_meta
+[2023-12-12 13:33:19][notice]Preparing to dump table wp_actionscheduler_claims
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_actionscheduler_groups
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_e_events
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_links
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_term_relationships
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_actionscheduler_logs
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_commentmeta
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_term_taxonomy
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_termmeta
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_terms
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_usermeta
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_users
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_wpforms_payment_meta
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_comments
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_actionscheduler_actions
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_wpforms_payments
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_posts
+[2023-12-12 13:33:20][notice]Preparing to dump table wp_postmeta
+[2023-12-12 13:33:21][notice]Preparing to dump table wp_options
+[2023-12-12 13:33:21][notice]Exporting database finished.
+[2023-12-12 13:33:21][notice]Start compressing database
+[2023-12-12 13:33:21][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_db.sql
+[2023-12-12 13:33:22][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_db.part001.zip, filesize: 882.60 KB
+[2023-12-12 13:33:22][notice]Compressing database completed
+[2023-12-12 13:33:22][notice]Backing up backup_db completed.
+[2023-12-12 13:33:22][notice]Prepare to backup backup_themes files.
+[2023-12-12 13:33:23][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_themes.part001.zip index:500
+[2023-12-12 13:33:30][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_themes.part001.zip success. index:500 file size:3.26 MB
+[2023-12-12 13:33:30][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_themes.part001.zip index:1000
+[2023-12-12 13:33:40][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_themes.part001.zip success. index:1000 file size:16.29 MB
+[2023-12-12 13:33:40][notice]Backing up backup_themes completed.
+[2023-12-12 13:33:40][notice]Prepare to backup backup_plugin files.
+[2023-12-12 13:33:44][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:500
+[2023-12-12 13:33:54][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:500 file size:5.27 MB
+[2023-12-12 13:33:54][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:1000
+[2023-12-12 13:34:10][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:1000 file size:13.46 MB
+[2023-12-12 13:34:10][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:1500
+[2023-12-12 13:34:14][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:1500 file size:14.58 MB
+[2023-12-12 13:34:14][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:2000
+[2023-12-12 13:34:23][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:2000 file size:19.90 MB
+[2023-12-12 13:34:23][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:2500
+[2023-12-12 13:34:35][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:2500 file size:21.70 MB
+[2023-12-12 13:34:35][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:3000
+[2023-12-12 13:34:50][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:3000 file size:22.82 MB
+[2023-12-12 13:34:50][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip index:3500
+[2023-12-12 13:34:51][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.part001.zip success. index:3500 file size:22.87 MB
+[2023-12-12 13:34:52][notice]Backing up backup_plugin completed.
+[2023-12-12 13:34:52][notice]Prepare to backup backup_uploads files.
+[2023-12-12 13:34:52][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_uploads.part001.zip index:500
+[2023-12-12 13:34:53][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_uploads.part001.zip success. index:500 file size:11.30 MB
+[2023-12-12 13:34:53][notice]Backing up backup_uploads completed.
+[2023-12-12 13:34:53][notice]Prepare to backup backup_content files.
+[2023-12-12 13:34:53][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_content.part001.zip index:500
+[2023-12-12 13:34:55][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_content.part001.zip success. index:500 file size:1,009.51 KB
+[2023-12-12 13:34:55][notice]Backing up backup_content completed.
+[2023-12-12 13:34:55][notice]Prepare to backup backup_core files.
+[2023-12-12 13:34:56][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:500
+[2023-12-12 13:35:11][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:500 file size:2.24 MB
+[2023-12-12 13:35:11][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:1000
+[2023-12-12 13:35:22][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:1000 file size:2.79 MB
+[2023-12-12 13:35:22][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:1500
+[2023-12-12 13:35:27][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:1500 file size:4.05 MB
+[2023-12-12 13:35:27][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:2000
+[2023-12-12 13:35:46][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:2000 file size:10.27 MB
+[2023-12-12 13:35:46][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:2500
+[2023-12-12 13:35:59][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:2500 file size:13.18 MB
+[2023-12-12 13:35:59][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip index:3000
+[2023-12-12 13:36:03][notice]Compressing zip file:localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.part001.zip success. index:3000 file size:13.65 MB
+[2023-12-12 13:36:04][notice]Backing up backup_core completed.
+[2023-12-12 13:36:04][notice]Prepare to backup backup_merge files.
+[2023-12-12 13:36:04][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_db.zip
+[2023-12-12 13:36:04][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 859.88 KB
+[2023-12-12 13:36:04][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_themes.zip
+[2023-12-12 13:36:05][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 16.91 MB
+[2023-12-12 13:36:05][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_plugin.zip
+[2023-12-12 13:36:06][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 38.97 MB
+[2023-12-12 13:36:07][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_uploads.zip
+[2023-12-12 13:36:08][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 50.25 MB
+[2023-12-12 13:36:08][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_content.zip
+[2023-12-12 13:36:08][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 51.23 MB
+[2023-12-12 13:36:08][notice]Prepare to zip file. file: localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_core.zip
+[2023-12-12 13:36:09][notice]Adding zip files completed.localhost_adventure_wpvivid-6578611e0ec0a_2023-12-12-13-33_backup_all.part001.zip, filesize: 64.50 MB
+[2023-12-12 13:36:09][notice]Backing up backup_merge completed.
+[2023-12-12 13:36:10][notice]Backup completed.
